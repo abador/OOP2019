@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EA7B0348-515B-4948-AD89-13F66BDD2E96}</ProjectGuid>
+    <ProjectGuid>{3BF09D67-E97F-4A48-A8AB-F0831DC54319}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Z1</RootNamespace>
-    <AssemblyName>Z1</AssemblyName>
+    <RootNamespace>zajecia1</RootNamespace>
+    <AssemblyName>zajecia1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
