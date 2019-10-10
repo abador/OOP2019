@@ -6,3 +6,6 @@
 /Lesson0/.vs/Lesson0/v15
 /Lesson0/Lesson0/obj
 /Lesson0/Lesson0/bin/Debug/netcoreapp2.0
+.vs/
+obj/
+netcoreapp2.0/
