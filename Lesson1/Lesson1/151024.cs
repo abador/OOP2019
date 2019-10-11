@@ -122,14 +122,21 @@ namespace danielzamojski
 
             //int q = int.Parse(Console.ReadLine());
 
-            //if(q>15 || q<5)
+           
+            //int q = int.Parse(Console.ReadLine());
+
+            //if (q > 5 && q<15)
+            //{
+            //    while (q != 0)
+            //    {
+            //        q--;
+            //        Console.WriteLine(q);
+            //    }
+                
+            //}
+            //else
             //{
             //    Console.WriteLine("podano zla liczbe");
-            //}
-            //while(q!=0)
-            //{
-            //    q--;
-            //    Console.WriteLine(q);
             //}
             int g;
             do
