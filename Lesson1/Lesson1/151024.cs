@@ -122,7 +122,7 @@ namespace danielzamojski
 
             //int q = int.Parse(Console.ReadLine());
 
-            //if(q>15 || q<3)
+            //if(q>15 || q<5)
             //{
             //    Console.WriteLine("podano zla liczbe");
             //}
