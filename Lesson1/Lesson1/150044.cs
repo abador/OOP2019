@@ -30,7 +30,10 @@ namespace ConsoleApp5
                 Console.Write(i + ",");
 
             }
+            
             Console.WriteLine();
+            */
+            /*
             int a = System.Convert.ToInt32(Console.ReadLine());
             int b = System.Convert.ToInt32(Console.ReadLine());
             int c = System.Convert.ToInt32(Console.ReadLine());
@@ -51,6 +54,7 @@ namespace ConsoleApp5
          }
          else Console.WriteLine("zle podałes");
          */
+            /*
             int ff; 
             do
             {
@@ -59,6 +63,14 @@ namespace ConsoleApp5
 
             } while (ff > 4 && ff < 15);
             Console.WriteLine("poprawna");
+            */
+            /*
+            int g = Convert.ToInt32(Console.ReadLine());
+            int h = Convert.ToInt32(Console.ReadLine());
+
+            if (g == h) Console.WriteLine("są rowne");
+            else Console.WriteLine("nie są");
+            */
         }
     }
 }
