@@ -1,0 +1,11 @@
+﻿################################################################################
+# Ten plik .gitignore został utworzony automatycznie przez Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Lesson0/.vs/Lesson0/v15
+/Lesson0/Lesson0/obj
+/Lesson0/Lesson0/bin/Debug/netcoreapp2.0
+/Lesson1/.vs/Lesson1/v15
+/Lesson1/Lesson1/obj
+/Lesson1/Lesson1/bin/Debug/netcoreapp2.0
