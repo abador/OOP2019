@@ -1,0 +1,116 @@
+ static void Main(string[] args)
+        {
+            //string bob = "hello bob";
+            //string eva = "hello eva";
+            //string userName;
+            //Console.WriteLine("Podaj swoje imie ");
+            //userName = Console.ReadLine();
+            //userName = "Hallo " + userName;
+            //Console.WriteLine(userName);
+            //Console.ReadKey();
+            //int a = 4;
+            //int b = 3;
+            //int c = 6;
+            //int d = 6;
+            //double wynik, wynik1, wynik2, wynik3;
+            //wynik = b + a;
+            //wynik1 = a - b;
+            //wynik2 = c / b;
+            //wynik3 = c * d;
+
+            //Console.WriteLine(wynik + wynik1);
+            // Console.WriteLine(wynik1);
+            // Console.WriteLine(wynik2);
+            // Console.WriteLine(wynik3);
+            //zad1
+            //int[] liczby = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+            //for(int i = 0; i < 9; i ++)
+            //{
+            //    Console.Write(liczby[i] + ",");
+
+            //}
+            //Console.WriteLine("\n");
+            //for(int i = 0; i < 9; i++)
+            //{
+            //    Console.WriteLine(liczby[i]);
+            //}
+            //Console.WriteLine("\n");
+            //for (int i = 8; i >= 0; i--)
+            //{
+            //    Console.Write(liczby[i]);
+            //}
+            //zad2
+            //int a = 5;
+            //int b = 5;
+            //int c = 7;
+            //if(a>10)
+            //{
+            //    Console.WriteLine("Prawidlowe porwonanie");
+            //}else
+            //{
+            //    Console.WriteLine("Błąd");
+            //}
+            //if(b<10)
+            //{
+            //    Console.WriteLine("Prawidlowe porwonanie");
+            //}else
+            //{
+            //    Console.WriteLine("Bład");
+            //}
+            //if(c==7)
+            //{
+            //    Console.WriteLine("Prawidlowe porownanie");
+            //}else
+            //{
+            //    Console.WriteLine("Bład");
+            //}
+            //zad3
+            //int a;
+            //int b;
+            //int c;
+            //Console.Write("Podaj liczbe a: ");
+            //a = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Podaj liczbe b: ");
+            //b = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("Podaj liczbe c: ");
+            //c = Convert.ToInt32(Console.ReadLine());
+            //if(a + b > c && a + c > b && b + c > a)
+            //{
+            //    Console.WriteLine("Trójkąt istnieje");
+            //}else
+            //{
+            //    Console.WriteLine("Trójkąt nie istnieje");
+            //}
+            //zad4
+            //int d;
+            //Console.Write("Podaj liczbe wieksza od 5 ale mniejsza od 15: ");
+            //d = Convert.ToInt32(Console.ReadLine());
+            //if(d>5 && d<15)
+            //{
+            //    while(d!=0)
+            //    {
+            //        d--;
+            //        Console.WriteLine(d);
+            //    }
+            //}else
+            //{
+            //    Console.Write("Nie podałes prawidlowej liczby");
+            //}
+	    //zad5
+	    //int e;
+            //Console.Write("Podaj liczbe, która spełnia wymagania >4, <7, !=10 = ");
+            //e = Convert.ToInt32(Console.ReadLine());
+            //do
+            //{
+                //if (e > 4 && e < 7 && e != 10)
+                //{
+                    //Console.WriteLine("Podałeś dobra liczbe");
+                    //break;
+                //}
+                //else
+                //{
+                    //Console.Write("Liczba, ktora podales jest bledna, podaj jeszcze raz liczbe: ");
+                    //e = Convert.ToInt32(Console.ReadLine());
+                //}
+      	     //} while (e != 0);
+             //Console.ReadKey();
