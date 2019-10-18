@@ -1,0 +1,36 @@
+﻿Stwórz program (plik program.cs), zadeklaruj w nim zmienną carName i przypisz mu wartość Mój samochód. Wynik wyświetl na ekranie.
+1. W tym samym projekcie stwórz klasę Car, w której będzie można przechowywać markę samochodu i rok produkcji (zmienne marka i rok) (zapisz ją w pliku Car.cs).
+2. Zmodyfikuj klasę Car, aby wszystkie zmienne były zadeklarowane jako prywatne.
+3. Stwórz nowy obiekt Car  w pliku program.cs przechowywany w zmiennej referencyjnej car1, ustaw dla niego dowolną markę i rok produkcji, wyświetl to na ekranie. Popraw kod, aby program działał poprawnie.
+4. Stwórz drugą zmienną referencyjną car2 typu Car, przypisz jej dowolne wartości i wyświetl na ekranie.
+5. Przypisz do siebie wartości car1 i car2 (car1 = car2) i ponownie sprawdź na ekranie jakie wartości otrzymasz.
+6. Zakomentuj kod do punktu 5 i 6.
+7. Utwórz prywatne pola klasy Car o nazwie: model, iloscDrzwi, pojemnoscSilnika oraz publiczne srednieSpalanie. Narysuj dla klasy Car diagram UML (kolejne czynności uzupełniaj na diagramie).
+8. Utwórz prywatną metodę ObliczSpalanie zwracającej wartość typu double i przyjmującej parametr dlugoscTrasy typu double. Metoda ta ma obliczać spalanie samochodu na podstawie podanej wartości długości trasy i wartości pola srednieSpalanie. Spalanie obliczamy według wzoru:
+spalanie = (srednieSpalanie * dlugoscTrasy) 
+9. Utwórz publiczną metodę ObliczKosztPrzejazdu zwracającej wartość typu double i przyjmującej parametry dlugoscTrasy typu double i cenaPaliwa typu double. Metoda ta ma obliczać koszt przejazdu na trasie o podanej długości, zakładając podaną cenę paliwa za litr. Metoda ta ma wykorzystywać prywatną metodę ObliczSpalanie. Koszt przejazdu obliczamy według wzoru: 
+kosztPrzejazdu = spalanie * cenaPaliwa;
+10. Nowy projekt - stwórz statyczną metodę opiszTyp, która będzie przeciążona, i będzie zwracała przykładowe wartości typów w zależności od rodzaju i liczby argumentów.
+________________
+11. Napisz klasę osoba, której diagram jest następujący:
+
+Osoba
+	+imie: string
+	+nazwisko: string
+	+rokUrodzenia: int
+	+waga: int
+	+wzrost: int
+	+okulary: bool
+	+plec: enum(K,M)
+	+obliczWiek(): int
+	Umieść klasę w pliku Osoba.cs.
+   12. W pliku program.cs stwórz obiekt dyrektor i przypisz mu dowolne atrybuty. Wyświetl na ekranie jest imię, nazwisko i liczbę lat.
+   13. W pliku Osoba.cs zmień dostępy do pól na private, internal, protected - co się zmieni?
+   14. Dodaj metodę dodającą przedrostek Pan/Pani w zależności od płci. (wyswietl napis w stylu Dyrektorem jest Pani Alina Kowalska).
+   15. Jeśli w metodzie obliczWiek masz wpisane na sztywno rok 2016, użyj odpowiedniej zmiennej pobierającej obecny rok z systemu  (DateTime.Now.Year).
+   16. Stwórz nowy obiekt pacjent i nadaj mu atrybuty, imię, nazwisko, wzrost,waga. Napisz metodę wyliczającą wskaźnik BMI (https://pl.wikipedia.org/wiki/Wska%C5%BAnik_masy_cia%C5%82a) .Na koniec wyśwetl na ekranie rodzaj wagi pacjenta (otyłość, niedowaga, wartość prawidłowa itp).
+   17. Napisz klasę produkt (nazwa, cena) oraz koszyk (lista towarów). Dorób też metodę dodającą towar do koszyka oraz funkcję pokazującą ilość elementów w koszyku i sumę cen. Zasymuluj robienie zakupów.
+   18. Napisać klasę Zespolone opisujące operacje na liczbach zespolonych. Pokazać w main podstawowe obliczenia.
+
+
+Na koniec zajęć załóż konto na Githubie. Umieść tam dowolny kod (np. z bieżących ćwiczeń). Link wyślij na maila do prowadzącego zajęcia.
