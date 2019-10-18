@@ -16,8 +16,9 @@ namespace ConsoleApp5
             mila = Convert.ToInt32(Console.ReadLine());
             int wynik;
             wynik = (mila * 1,609344);
-            Console.WriteLine("wynik wynosi ");
             wynik = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(wynik);
+  
             Console.ReadKey();
         }
     }
