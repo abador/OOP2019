@@ -29,3 +29,11 @@ Stwórz program, który bêdzie s³u¿y³ do porównywania liczb. Zadeklaruj kilka zmie
 Przerób program tak aby przyjmowa³ z klawiatury 3 liczby, a nastêpnie sprawdza³ warunek istnienia trójk¹ta.
 Stwórz program, który bêdzie wczytywa³ liczbê podan¹ przez u¿ytkownika (ograniczon¹ “z góry” do 15 i “z do³u” do 5), a nastêpnie odejmowa³ od niej 1 i wypisywa³ wynik, a¿ do osi¹gniêcia 0. U¿yj do tego pêtli while.
 Stwórz program, który bêdzie wczytywa³ liczbê podan¹ przez u¿ytkownika. Nastêpnie sprawdŸ czy liczba spe³nia podane wymagania (np. >4, <7, !=10 itp.). Jeœli liczba tak wyœwietl komunikat koñcz¹cy, jeœli nie, wyœwietl proœbê o wczytanie liczby. U¿yj do tego pêtli do...while.
+
+
+Zadanie dodatkowe do æwiczeñ 1:
+1.  Przeanalizuj kod z pliku program101.cs. Czemu pokazuje b³¹d przy kompilacji? Popraw go tak, aby program dzia³a³ poprawnie.
+2.   Utwórz program, w którym bêd¹ zadeklarowane 3 zmienne a,b,c typu int (bez wspólnych dzielników innych ni¿ 1, np. 5,9,11). Nastêpnie wykonaj i wyœwietl w aplikacji wyniki operacji: a/b, a/c,b/c,b/a,c/a,c/b.
+3.   Przeanalizuj kod z pliku program102.cs. Nie uruchomiaj programu. Jakie wartoœci otrzymasz na poszczególnych krokach? SprawdŸ to po kompilacji.
+4.   Zadeklaruj zmienn¹ sbyte i przypisz jej wartoœæ 127. Wykonaj na niej operacjê inkrementacji. Wynik wyœwietl na ekranie.
+5.   Na pliku program102.cs (lub innym) poæwicz zmianê nazw zmiennych. Czemu nie nale¿y u¿ywaæ opcji „Edit/Find and Replace”? Tip: zaznacz zmienn¹ i naciœnij dwa razy Ctrl+R.
