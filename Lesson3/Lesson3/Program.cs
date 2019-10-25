@@ -6,7 +6,16 @@ namespace Lesson3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // 2
+
+            Szkola sz = new Szkola();
+
+            sz.liczbaUczniow = 100;
+            sz.liczbaLawek = 50;
+
+            sz.SprawdzLawki();
+
+            Console.ReadKey();
         }
     }
 }
