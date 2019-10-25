@@ -32,5 +32,3 @@ Osoba
    17. Napisz klasę produkt (nazwa, cena) oraz koszyk (lista towarów). Dorób też metodę dodającą towar do koszyka oraz funkcję pokazującą ilość elementów w koszyku i sumę cen. Zasymuluj robienie zakupów.
    18. Napisać klasę Zespolone opisujące operacje na liczbach zespolonych. Pokazać w main podstawowe obliczenia.
 
-
-Na koniec zajęć załóż konto na Githubie. Umieść tam dowolny kod (np. z bieżących ćwiczeń). Link wyślij na maila do prowadzącego zajęcia.
