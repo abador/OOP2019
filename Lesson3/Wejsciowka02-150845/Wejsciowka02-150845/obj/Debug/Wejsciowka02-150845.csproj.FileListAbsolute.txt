@@ -1,0 +1,6 @@
+C:\Users\M\source\repos\Wejsciowka02-150845\Wejsciowka02-150845\bin\Debug\Wejsciowka02-150845.exe.config
+C:\Users\M\source\repos\Wejsciowka02-150845\Wejsciowka02-150845\bin\Debug\Wejsciowka02-150845.exe
+C:\Users\M\source\repos\Wejsciowka02-150845\Wejsciowka02-150845\bin\Debug\Wejsciowka02-150845.pdb
+C:\Users\M\source\repos\Wejsciowka02-150845\Wejsciowka02-150845\obj\Debug\Wejsciowka02-150845.csprojAssemblyReference.cache
+C:\Users\M\source\repos\Wejsciowka02-150845\Wejsciowka02-150845\obj\Debug\Wejsciowka02-150845.exe
+C:\Users\M\source\repos\Wejsciowka02-150845\Wejsciowka02-150845\obj\Debug\Wejsciowka02-150845.pdb
