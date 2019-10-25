@@ -1,27 +1,22 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp3
+namespace ConsoleApp2
 {
-    class Program
+    class Czworokat
     {
-        static void Main(string[] args)
-        {
-            string Czworokat;
-            Console.WriteLine(Czworokat);
-            Czworokat = new Czworokat();
-            cz.pierwszyBok = 4;
-            cz.drugiBok = 4;
-            cz.trzeciBok = 8;
-            cz.czwartyBok = 8;
-            CzyRomb()
+        public double pierwszyBok;
+        public double drugiBok;
+        public double trzeciBok;
+        public double czwartyBok;
 
-            Console.WriteLine(Czworokat.pierwszyBok);
-            Console.ReadKey();
+        public string CzyRomb()
+        {
+            if (this.pierwszyBok == this.drugiBok && this.drugiBok == this.trzeciBok && this.trzeciBok == this.czwartyBok && this.pierwszyBok > 0 && this.drugiBok > 0 && this.trzeciBok > 0 && this.czwartyBok > 0)
+                return "OK";
+            else
+                return "NIE";
         }
     }
 }
-
