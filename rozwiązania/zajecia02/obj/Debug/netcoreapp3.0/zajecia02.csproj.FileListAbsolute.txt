@@ -1,0 +1,11 @@
+C:\Users\faza\source\repos\zajecia02\bin\Debug\netcoreapp3.0\zajecia02.exe
+C:\Users\faza\source\repos\zajecia02\bin\Debug\netcoreapp3.0\zajecia02.deps.json
+C:\Users\faza\source\repos\zajecia02\bin\Debug\netcoreapp3.0\zajecia02.runtimeconfig.json
+C:\Users\faza\source\repos\zajecia02\bin\Debug\netcoreapp3.0\zajecia02.runtimeconfig.dev.json
+C:\Users\faza\source\repos\zajecia02\bin\Debug\netcoreapp3.0\zajecia02.dll
+C:\Users\faza\source\repos\zajecia02\bin\Debug\netcoreapp3.0\zajecia02.pdb
+C:\Users\faza\source\repos\zajecia02\obj\Debug\netcoreapp3.0\zajecia02.csprojAssemblyReference.cache
+C:\Users\faza\source\repos\zajecia02\obj\Debug\netcoreapp3.0\zajecia02.AssemblyInfoInputs.cache
+C:\Users\faza\source\repos\zajecia02\obj\Debug\netcoreapp3.0\zajecia02.AssemblyInfo.cs
+C:\Users\faza\source\repos\zajecia02\obj\Debug\netcoreapp3.0\zajecia02.dll
+C:\Users\faza\source\repos\zajecia02\obj\Debug\netcoreapp3.0\zajecia02.pdb
