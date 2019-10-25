@@ -22,7 +22,7 @@ namespace Wejsciowka02_150845
         }
         public void CzyRomb()
         {
-            if (pierwszyBok < 0 || drugiBok < 0 || trzeciBok < 0 || czwartBok < 0)
+            if (pierwszyBok <= 0 || drugiBok <= 0 || trzeciBok <= 0 || czwartBok <= 0)
                 Console.WriteLine("Nie jest rombem");
             else if (pierwszyBok != drugiBok || pierwszyBok != trzeciBok || pierwszyBok != czwartBok || drugiBok != trzeciBok || drugiBok != czwartBok || trzeciBok != czwartBok)
                 Console.WriteLine("Niej jest rombem");
