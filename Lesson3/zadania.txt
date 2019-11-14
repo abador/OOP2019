@@ -1,0 +1,56 @@
+﻿Stwórz branch nazywający się Lesson3-{numer indeksu} z aktalnej wersji mastera mojego repo(lub mastera forka)
+Zmiany wprowadzaj na tym branchu
+Na koniec zajęć utwórz pull request z tego brancha
+
+Stwórz klasę Car.
+Stwórz w niej nowe prywatne pola double pojemonoscSilnika, string marka
+Stwórz obiekt typu Car, czy masz dostęp do jego pól? czy możesz zmienić wartości?
+Do klasy Car dodaj ręcznie napisany konstruktor.
+Przeciąż konstruktor tworząc nowy: Car(double pojemonoscSilnika, string marka). Niech ten parametryczny konstruktor ustawia wartości pól pojemność silnika oraz marka. (użyj inicjalizatora this)
+Stwórz nowy obiekt za pomocą konstruktora parametrycznego.
+Za pomocą debuggera sprawdź jakie wartości na prywatnych polach ma obiekt numer 1, a jakie obiekt 2.
+Zmień modyfikatory dostępu konstruktorów na private. Czy jest możliwe utworzenie nowego obiektu tej klasy? Co się stało z konstruktorem domyślnym?
+W klasie Car stwórz metodę Car Create(), która będzie zwracać obiekt.
+Stwórz obiekt dzięki metodzie Create() (pamiętałeś o dodaniu static do metody? )
+Utwórz statyczne pole int iloscKol. Następnie stwórz statyczny konstruktor ustawiający wartość tego pola na 4.
+Uruchom program i w debuggerze sprawdź jaką wartość pola iloscKol ma wczesniej stworzony obiekt.
+Do projektu dodaj nową referencję - kliknij prawym przyciskiem myszy na References wybierz Add Reference - z listy zaznacz System.Windows.Forms. Następnie dodaj dyrektywę using System.Windows.Forms.
+Do klasy Car dodaj destruktor ~Car(), wewnątrz dodaj następujący kod: MessageBox.Show("Zwalniam pamiec");
+Uruchom program i zwróć uwagę kiedy następuje zwolnienie pamięci.
+Stwórz nowy projekt Wyjątki
+Spróbuj wykonać następujący kod:
+int liczba1;
+liczba1=30 / 0;
+Jaki błąd wyświetlił kompilator? Czy da się go oszukać? (podpowiedź użyj 3 zmiennych)
+Operacje na zmiennych (np. liczba1 = liczba2 / liczba3) umieść w bloku try
+Stwórz blok catch i dodaj tam komunikat np. “Nie lubię dzielić przez zero”. Uruchom program podstawiając pod zmienną liczba3 - 0.
+Stwórz blok finally i umieść w nim komunikat “FINALLY”.
+Uruchom program dwukrotnie, raz dzieląc przez 0, a raz nie. Widzisz różnicę między catch i finally?
+Edytuj blok catch w następujący sposób: catch (Exception e), a wyświetlany komunikat zamień na e.Message.
+Wywołaj program dzieląc przez zero. Sprawdź co jeszcze można wywołać ze zmiennej e oprócz polecenia Message.
+Stwórz tablicę int[] table = new int [2], a następnie w bloku try umieść kod: table[25] = 2. Jak widać wychodzimy poza zakres. Możemy stworzyć kilka wyjątków tzw. selektywna obsługa wyjątków.
+Stwórz 2 bloki catch
+catch(IndexOutOfRangeException e)
+catch()
+W obu umieść różne komunikaty.
+Uruchom program, zwróć uwagę który kod się wywołał.
+Ciekawą opcją dla programisty, jest wywołanie wyjątku - konstrukcja jest prosta. W bloku try umieść następujący kod throw new IndexOutOfRangeException(); następnie użyj bloku catch aby przechwycić wyjątek.
+
+
+
+
+
+
+
+
+Ćwiczenia:
+Stwórz program, który:
+będzie zawierać klasę Obliczenia, z prywatnymi polami oraz metodami Dodawanie, Odejmowanie, Mnożenie, Dzielenie, Potęgowanie i Pierwiastkowanie (czy ta klasa może być statyczna? a może tylko jej metody? czy lepiej aby nic nie było statyczne?)
+Wykorzystując bloki try...catch...finally zaimplementuj mały kalkulator (używający metod z klasy obliczenia)
+
+(*)Stwórz własną klasę wyjątku aby stworzyć nowy wyjątek. (dobra praktyka mówi o tym że nazwa wyjątku powinna zawierać w swojej nazwie słowo Exception). Wywołaj go za pomocą throw i przechwyć w bloku catch.
+
+Podpowiedzi:
+skorzystaj z dziedziczenia po System.Exception
+stwórz odpowiedni konstruktor, sprawdź czym jest :base
+dodatkowe informacje (How to: Create User-Defined Exceptions - MSDN)

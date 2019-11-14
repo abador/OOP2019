@@ -1,0 +1,69 @@
+﻿Stwórz klasę Osoba z polami imie, nazwisko, rok urodzenia, dodaj konstruktor
+ustawiający wartości pól za pomocą parametrów. Dodaj metodę WypiszInfo()
+wyświetlającą wartości pól.
+2. Stwórz klasę potomną Student z dodatkowymi polami rok, numerGrupy,
+numerAlbumu, stwórz konstruktory i metodę WypiszInfo().
+3. Ustaw modyfikatory dostępu w klasie “rodzica” na protected.
+4. W klasie Osoba dodaj metodę ObliczWiek(). Następnie stwórz obiekt z klasy Student i
+spróbuj na nim wywołać metodę ObliczkWiek().
+5. W klasie Osoba dodaj pole miejsceZamieszkania z modyfikatorem private. Spróbuj je
+wywołać dla obiektu z klasy Student. Popraw kod aby wszystko działało.
+6. Chcemy utworzyć klasę StudentPierwszegoRoku – po czym powinien dziedziczyć?
+Czy jeśli będzie dziedziczył po klasie student to otrzyma dostęp do pól i metod klasy
+osoba? (Jak rozumiesz określenie: Drzewo dziedziczenia?)
+7. Stwórz dwa obiekty typu student (np. student1 i student2) oraz dwa obiekty typu
+osoba (np. osoba1 i osoba2). Teraz spróbuj przypisać osobę do studenta, oraz studenta
+do osoby. Co się stało? Sprawdź w debuggerze czy coś się zmieniło w momencie
+przypisania.
+8. Stwórz nowy projekt o nazwie rzutowanie.
+9. Stwórz 3 klasy: BaseClass, DerrivedClass, NextDerrivedClass. Derrived ma
+dziedziczyć bo Base, a NextDerrived po Derrived.
+10. Stwórz obiekt klasy BaseClass, a następnie spróbuj go zrzutować na obiekty innych
+klas. Np.:
+BaseClass myObj = new BaseClass();
+DerrivedClass derObj1 = (DerrivedClass)myObj;
+NextDerrivedClass NxtObj1 = (NextDerrivedClass)myObj;;
+Jakie rzutowanie jest dozwolone i dlaczego?
+Ćwiczenia:
+1. Zaprojektuj i zaimplementuj podstawy gry RPG. W grze może istnieć kilka typów
+bohaterów, lecz na początku będą tylko dwa rodzaje – wojownik i łucznik. W
+przyszłości planowana jest rozbudowa.
+a. Wiadomo że wszystkie postacie będą opisane imieniem, poziomem życia, oraz
+posiadać będą operację która pozwoli obliczyć moc ataku.
+b. Zaimplementuj wojownika i łucznika zgodnie ze schematem:
+Łucznik: imię, żywotność (w %), zręczność (liczba całkowita), punkty taktyki
+(liczba całkowita)
+Wojownik: imię, żywotność(w %), siła (liczba całkowita), punkty taktyki (liczba
+całkowita)
+c. Zadbaj o hermetyzację w klasach.
+
+d. Konstruktor domyślny powinien implementować bohaterów zgodnie ze
+schematem:
+Łucznik: Imię=”GoblinA”, żywotność=100%, zręczność=15, PT = 3;
+Wojownik: Imię=”OrkA”, żywotność=100%, siła=15,PT=1;
+e. Pozostałe metody:
+i. zmiana pkt życia (nie mniej niż 0% i nie więcej niż 100%),
+ii. moc ataku (zręczność/siła * PT * żywotność) UWAGA: w przypadku
+wojownika gdy żywotność spada poniżej 20% wpada w szał i mnożnik
+żywotności zmienia się na stałe 150%
+iii. przeciąż metodę toString() tak aby wyświetlała informacje o bohaterze
+f. Stwórz program w którym stworzysz 2 osobową drużynę bohaterów: Legolas i
+Aragorn. Pobaw się ich żywotnością i sprawdź jak zmienia się wartość ataku.
+Pytania: Czy pomyślałeś o klasie rodzica np.bohater? Czy Łucznik i wojownik dziedziczą po
+bohaterze? Czy ciężko byłoby dodać kolejnych bohaterów? Czy możliwe byłoby stworzenie
+klasy DrużynaBohaterów i czy miałoby to sens?
+
+2. Stwórz program z klasą Konto. Dodaj w niej samodzielnie wybrane pola, metody,
+konstruktory, opisujące możliwe działania na koncie (saldo początkowe, końcowe,
+przelew, wpłata/wypłata w kasie, wypłata w bankomacie, płatność kartą, itp).
+a. Stwórz kilka obiektów, wyciągi dla kont wyświetl na ekranie i zapisz je do
+pliku tekstowego.
+b. (https://msdn.microsoft.com/pl-pl/library/8bh11f1k%28v=vs.110%29.aspx :
+MSDN: How to: Write to a Text File)
+c. Stwórz klasy potomne KontoPrywatne (rozbuduj o przelew wynagrodzenia,
+otrzymanie 500+, itp) i KontoFirmowe (przelewy do ZUS, US).
+d. Rozbuduj program tak, by na początku sprawdzał czy istnieje plik z zapisem
+historii danego konta - jeśli tak, to kolejne logi powinny być dopisywane do
+pliku, a nie zastępować stare.
+e. Do logów dodaj TimeStamp, aby łatwo było sprawdzić kiedy wykonywane
+były operacje.
