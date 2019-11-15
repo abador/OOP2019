@@ -3,12 +3,12 @@ using Map;
 
 namespace Lesson4
 {
-    class User : Point
+    class User : MapElement
     {
         public string name { get; set; }
         public int level { get; set; }
 
-        public User(string name, int level, int x, int y) : base(x, y)
+        public User(string name, int level, int x, int y) : base(x, y, 'U')
         {
             this.name = name;
             this.level = level;
