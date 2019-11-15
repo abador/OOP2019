@@ -43,7 +43,6 @@ namespace Map
             this.data[size[0], size[1]] = new Grass(size[0], size[1]);
 
             for (int i = 0; i < this.data.GetLength(0); i++)
-            {
                 for (int j = 0; j < this.data.GetLength(1); j++)
                 {
                     if (i == size[0] && j == size[1])
@@ -58,7 +57,6 @@ namespace Map
                     else
                         this.data[i, j] = new Grass(i, j);
                 }
-            }
         }
 
         public void list()
