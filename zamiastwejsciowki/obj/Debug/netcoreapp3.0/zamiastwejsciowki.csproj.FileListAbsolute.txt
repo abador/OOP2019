@@ -1,0 +1,11 @@
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\obj\Debug\netcoreapp3.0\zamiastwejsciowki.csprojAssemblyReference.cache
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\obj\Debug\netcoreapp3.0\zamiastwejsciowki.AssemblyInfoInputs.cache
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\obj\Debug\netcoreapp3.0\zamiastwejsciowki.AssemblyInfo.cs
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\bin\Debug\netcoreapp3.0\zamiastwejsciowki.exe
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\bin\Debug\netcoreapp3.0\zamiastwejsciowki.deps.json
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\bin\Debug\netcoreapp3.0\zamiastwejsciowki.runtimeconfig.json
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\bin\Debug\netcoreapp3.0\zamiastwejsciowki.runtimeconfig.dev.json
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\bin\Debug\netcoreapp3.0\zamiastwejsciowki.dll
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\bin\Debug\netcoreapp3.0\zamiastwejsciowki.pdb
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\obj\Debug\netcoreapp3.0\zamiastwejsciowki.dll
+C:\Users\Cersh\source\repos\zamiastwejsciowki\zamiastwejsciowki\obj\Debug\netcoreapp3.0\zamiastwejsciowki.pdb
