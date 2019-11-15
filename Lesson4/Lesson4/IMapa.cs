@@ -9,6 +9,5 @@ namespace Lesson4
         void generate();
         void list();
         void show();
-
     }
 }
