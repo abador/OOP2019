@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Map;
 
 namespace Lesson4
@@ -10,9 +10,13 @@ namespace Lesson4
             Mapa map = new Mapa();
 
             map.generate();
+            Console.WriteLine();
 
             map.list();
+            Console.WriteLine();
+
             map.show();
+            Console.WriteLine();
 
             // random the player's position from all available grass fields on the map
 
@@ -20,16 +24,17 @@ namespace Lesson4
 
             Random random = new Random();
 
-            for (int i = 0; i < map.data.GetLength(0); i++)
-                for (int j = 0; j < map.data.GetLength(1); j++)
-                    if (map.data[i, j] is Grass)
-                    {
-                        x = i;
-                        y = j;
+            foreach(MapElement me in map.data)
+            {
+                if(me is Grass)
+                {
+                    x = me.x;
+                    y = me.y;
 
-                        if (random.Next(0, 100) >= 60)
-                            break;
-                    }
+                    if (random.Next(0, 100) >= 90)
+                        break;
+                }
+            }
 
             User user = new User("Player", 0, x, y);
 
