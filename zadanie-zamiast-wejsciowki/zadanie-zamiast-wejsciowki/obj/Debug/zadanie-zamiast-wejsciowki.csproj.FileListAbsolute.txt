@@ -1,0 +1,6 @@
+C:\Users\M\source\repos\zadanie-zamiast-wejsciowki\zadanie-zamiast-wejsciowki\bin\Debug\zadanie-zamiast-wejsciowki.exe.config
+C:\Users\M\source\repos\zadanie-zamiast-wejsciowki\zadanie-zamiast-wejsciowki\bin\Debug\zadanie-zamiast-wejsciowki.exe
+C:\Users\M\source\repos\zadanie-zamiast-wejsciowki\zadanie-zamiast-wejsciowki\bin\Debug\zadanie-zamiast-wejsciowki.pdb
+C:\Users\M\source\repos\zadanie-zamiast-wejsciowki\zadanie-zamiast-wejsciowki\obj\Debug\zadanie-zamiast-wejsciowki.csprojAssemblyReference.cache
+C:\Users\M\source\repos\zadanie-zamiast-wejsciowki\zadanie-zamiast-wejsciowki\obj\Debug\zadanie-zamiast-wejsciowki.exe
+C:\Users\M\source\repos\zadanie-zamiast-wejsciowki\zadanie-zamiast-wejsciowki\obj\Debug\zadanie-zamiast-wejsciowki.pdb
