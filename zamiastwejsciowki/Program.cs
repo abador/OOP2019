@@ -43,10 +43,10 @@ namespace zamiastwejsciowki
                             Map[Rzedy, Kolumny] = "G";
                             break;
                         case 2:
-                            Console.Write("T");
+                            Map[Rzedy, Kolumny] = "T";
                             break;
                         case 3:
-                            Console.Write("G");
+                            Map[Rzedy, Kolumny] = "R";
                             break;
                         default:
                             Console.Write("");
