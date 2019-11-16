@@ -70,7 +70,7 @@ namespace _150845_ZadanieZamiastWejsciowki.MapClass
                     }
                     los = 0;
                     
-                    if((i == x - 1 && j == j - 1) && licznik == 0)
+                    if((i == x - 1 && j == y - 1) && licznik == 0)
                     {
                         i = 0;
                         j = 0;
