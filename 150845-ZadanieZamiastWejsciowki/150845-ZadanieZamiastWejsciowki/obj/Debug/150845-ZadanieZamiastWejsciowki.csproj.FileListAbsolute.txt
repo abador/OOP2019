@@ -1,0 +1,6 @@
+C:\Users\M\source\repos\150845-ZadanieZamiastWejsciowki\150845-ZadanieZamiastWejsciowki\bin\Debug\150845-ZadanieZamiastWejsciowki.exe.config
+C:\Users\M\source\repos\150845-ZadanieZamiastWejsciowki\150845-ZadanieZamiastWejsciowki\bin\Debug\150845-ZadanieZamiastWejsciowki.exe
+C:\Users\M\source\repos\150845-ZadanieZamiastWejsciowki\150845-ZadanieZamiastWejsciowki\bin\Debug\150845-ZadanieZamiastWejsciowki.pdb
+C:\Users\M\source\repos\150845-ZadanieZamiastWejsciowki\150845-ZadanieZamiastWejsciowki\obj\Debug\150845-ZadanieZamiastWejsciowki.csprojAssemblyReference.cache
+C:\Users\M\source\repos\150845-ZadanieZamiastWejsciowki\150845-ZadanieZamiastWejsciowki\obj\Debug\150845-ZadanieZamiastWejsciowki.exe
+C:\Users\M\source\repos\150845-ZadanieZamiastWejsciowki\150845-ZadanieZamiastWejsciowki\obj\Debug\150845-ZadanieZamiastWejsciowki.pdb
