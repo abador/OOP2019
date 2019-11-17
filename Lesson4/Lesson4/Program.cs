@@ -1,12 +1,20 @@
 ﻿using System;
 
-namespace Lesson4
+namespace Wejściówka
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("151212");
+            Console.WriteLine(151212 % 4);
+
+            Mapa map = new Mapa(5);
+            map.generate();
+            map.list();
+            map.show();
+
+            
         }
     }
 }
