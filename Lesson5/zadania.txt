@@ -1,0 +1,82 @@
+Stwórz nowy projekt. Napisz w nim pustą klasę Vehicle, oraz dwie dziedziczące po niej klasy Car i Bicycle.
+Teraz utwórz interfejs IRideable, zawierający deklarację metody Ride().
+Podepnij interfejs do klas Car i Bicycle i zaimplementuj metodę Ride() wyświetlając w konsoli komunikat „Jadę samochodem” lub „Jadę rowerem”.
+Stwórz obiekt car1 typu Car, oraz bicycle1 typu Bicycle. Dla nowo utworzonych obiektów wywołaj metodę Ride() i zobacz co wyświetli się na ekranie.
+Do projektu dodaj nowy plik. Stwórz w nim dwa interfejsy IGitarzysta oraz ISkrzypek, zawierające deklarację metody Graj().
+Stwórz klasę osoba i dodaj do niej interfejsy gitarzysty oraz skrzypka.
+Zaimplementuj metodę graj na 3 sposoby:
+
+ public void Graj()
+        {
+            Console.WriteLine("Gram ale nie wiem na czym");
+        }
+        void IGitarzysta.Graj()
+        {
+            Console.WriteLine("Gram na gitarze");
+        }
+        void ISkrzypek.Graj()
+        {
+            Console.WriteLine("Gram na skrzypcach");
+        }
+Stwórz obiekt klasy osoba i wywołaj metodę Graj(). Zastanów się jak wyświetlić inne komunikaty?
+Stwórz nowy projekt. Utwórz w nim klasę Test i powiąż ją z interfejsem IClonable. W klasie zadeklaruj publiczne pole typu integer liczba, a następnie zaimplementuj metodę Clone, w następujący sposób:
+
+ public Object Clone()
+        {
+            return MemberwiseClone();
+        }
+
+Utwórz 3 obiekty typu test, a następnie dopisz następujący kod:
+
+     obiekt1.liczba = 255;
+            obiekt2 = obiekt1;
+            obiekt3 = (Test)obiekt1.Clone();
+            obiekt1.liczba = 347;
+
+Wyświetl wartość pola liczba we wszystkich 3 obiektach. Czy udało Ci się przewidzieć wyniki?
+Do programu dodaj nową klasę Test2 zawierającą publiczne pole słowo typu string.
+Do klasy Test dodaj nowe pole typu Test2 o nazwie poleTestowe. Nadpisz też konstruktor domyślny, tak aby tworzył w testowym polu nowy obiekt.
+W kodzie programu dodaj dwie nowe linie – pierwszą po wpisaniu liczby 255, drugą po zmianie liczby na 347.
+obiekt1.poleTestowe.słowo = "słowo";
+obiekt1.poleTestowe.słowo = "kaczka";
+Dopisz wyświetlanie wartości słowa w polu testowym trzech obiektów. Jaki jest wynik?
+Do klasy test dodaj następującą metodę:
+
+public Test GlebokaKopia()
+        {
+            Test tempTest = new Test();
+            tempTest.liczba = this.liczba;
+            tempTest.poleTestowe.słowo = this.poleTestowe.słowo;
+            return tempTest;
+        }
+
+
+W kodzie programu, w miejscu przypisywania wartości do obiektu 3 zamień kod na następujący:
+obiekt3 = obiekt1.GlebokaKopia();
+
+Ćwiczenia:
+Zwierzaki:
+Stwórz klasę Zwierzę, po której dziedziczyć będą następujące klasy: Pies, Wilk, Rekin, Orzeł i Krokodyl.
+Stwórz interfejs zawierający dwie metody: void JakSiePoruszam() i void CoJem(). Interfejs ma być dołączony tylko i wyłącznie do klasy Zwierzę.
+Obiekt każdej klasy powinien umieć wywołać powyższe metody i odpowiedzieć na nie w sensowny sposób (np. „poruszam się na czterech łapach”)
+W każdej klasie potomnej po Zwierzaku dodaj pola: imię, waga i rozmiar. Stwórz po dwa obiekty z klas i zastanów się czy potrzebna by była metoda głębokiej kopii.
+Czy jeśli chcemy aby każda z klas zawierała metodę Copy() (płytką) to musimy deklarować ją w każdej, a może tylko w klasie rodzica? A jak będzie w przypadku kopii głębokiej?
+
+Zbiór figur:
+Zaimplementuj klasy, które pozwolą reprezentować obiekty w dwuwymiarowej przestrzeni.
+Punkt – reprezentowany przez dwie zmienne typu rzeczywistego X i Y
+Koło – reprezentowane przez środek koła (punkt), oraz promień.
+Kwadrat – reprezentowany przez 4 punkty krawędziowe.
+(Wszystkie powyższe klasy posiadają też pole nazwa typu string.)
+
+Zdefiniuj operacje:
+- konstruktory
+- metodę Clone (z interfejsu IClonable)
+- przeciąż metodę ToString() tak aby zwracała czytelne informacje o figurze
+
+Interfejs:
+- metoda LiczObwód (obwód punktu = 0)
+- metoda PobierzDaneZKlawiatury
+- metoda Wyświetl
+
+Po zakończeniu implementacji stwórz kilka obiektów, policz ich obwód, a następnie je wyświetl.
