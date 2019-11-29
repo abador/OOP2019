@@ -1,0 +1,1 @@
+Numer zestawu: (numerIndeksu / 3)+1
