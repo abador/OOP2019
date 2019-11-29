@@ -1,0 +1,7 @@
+D:\2 ISI6\OOP2019-L07\OOP2019-L07\Lesson7\L07\L07\bin\Debug\L07.exe.config
+D:\2 ISI6\OOP2019-L07\OOP2019-L07\Lesson7\L07\L07\bin\Debug\L07.exe
+D:\2 ISI6\OOP2019-L07\OOP2019-L07\Lesson7\L07\L07\bin\Debug\L07.pdb
+D:\2 ISI6\OOP2019-L07\OOP2019-L07\Lesson7\L07\L07\obj\Debug\L07.csprojAssemblyReference.cache
+D:\2 ISI6\OOP2019-L07\OOP2019-L07\Lesson7\L07\L07\obj\Debug\L07.csproj.CoreCompileInputs.cache
+D:\2 ISI6\OOP2019-L07\OOP2019-L07\Lesson7\L07\L07\obj\Debug\L07.exe
+D:\2 ISI6\OOP2019-L07\OOP2019-L07\Lesson7\L07\L07\obj\Debug\L07.pdb
