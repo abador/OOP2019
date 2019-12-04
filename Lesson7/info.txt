@@ -1,1 +1,1 @@
-Numer zestawu: (numerIndeksu / 3)+1
+Numer zestawu: int zestaw = (numerIndeksu % 3)+1;
