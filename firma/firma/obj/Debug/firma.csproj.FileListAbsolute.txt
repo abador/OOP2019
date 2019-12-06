@@ -1,0 +1,6 @@
+C:\Users\oem\Desktop\obiektowe\firma\firma\obj\Debug\firma.csprojAssemblyReference.cache
+C:\Users\oem\Desktop\obiektowe\firma\firma\bin\Debug\firma.exe.config
+C:\Users\oem\Desktop\obiektowe\firma\firma\bin\Debug\firma.exe
+C:\Users\oem\Desktop\obiektowe\firma\firma\bin\Debug\firma.pdb
+C:\Users\oem\Desktop\obiektowe\firma\firma\obj\Debug\firma.exe
+C:\Users\oem\Desktop\obiektowe\firma\firma\obj\Debug\firma.pdb
