@@ -38,10 +38,7 @@ namespace ConsoleApp1
 
         abstract void WypiszInfo()
         {
-            Console.Write("tytuł" + tytuł);
-            Console.Write("id" + id);
-            Console.Write("wydawnictwo" + wydawnictwo);
-            Console.Write("rokWydania" + rokWydania);
+            
         }
     }
 
@@ -49,24 +46,45 @@ namespace ConsoleApp1
     {
         private int liczbaStron;
 
-        public Książka(int liczbaStron)
+        public Książka(int liczbaStron, int id, int rokWydania, string tytuł, string wydawnictwo):base(id, rokWydania, tytuł, wydawnictwo )
         {
             this.liczbaStron = liczbaStron;
+            this.wydawnictwo = wydawnictwo;
+            this.tytuł = tytuł;
+            this.rokWydania = rokWydania;
+            this.id = id;
+
         }
 
         public void WypiszInfo()
         {
             Console.Write("liczbaStron" + liczbaStron);
+            Console.Write("tytuł" + tytuł);
+            Console.Write("id" + id);
+            Console.Write("wydawnictwo" + wydawnictwo);
+            Console.Write("rokWydania" + rokWydania);
         }
     }
 
     class Czasopismo : Pozycja
     {
         private int numer;
+        public Czasopismo(int numer, int id, int rokWydania, string tytuł, string wydawnictwo) : base(id, rokWydania, tytuł, wydawnictwo)
+        {
+            this.numer = numer;
+            this.wydawnictwo = wydawnictwo;
+            this.tytuł = tytuł;
+            this.rokWydania = rokWydania;
+            this.id = id;
+        }
 
         public void WypiszInfo()
         {
             Console.Write("numer" + numer);
+            Console.Write("tytuł" + tytuł);
+            Console.Write("id" + id);
+            Console.Write("wydawnictwo" + wydawnictwo);
+            Console.Write("rokWydania" + rokWydania);
         }
     }
 
