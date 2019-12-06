@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Firma
 {
@@ -16,9 +13,9 @@ namespace Firma
             for (var i = 0; i < 20; i++)
                 pracownicy.Add(new Pracownik($"test_{i}", $"test_{i}"));
 
-            pracownicy[5].nazwisko = "Kowalski";
-            pracownicy[6].nazwisko = "Mierzeja";
-            pracownicy[7].nazwisko = "Bazydło";
+            pracownicy[5].nazwisko = "A";
+            pracownicy[6].nazwisko = "Ab";
+            pracownicy[7].nazwisko = "Abc";
 
             pracownicy[5].ZmienPodstawePensji(5000);
 
@@ -68,10 +65,8 @@ namespace Firma
 
             pracownicy.Add(test);
 
-            //
-
-            foreach (Pracownik pracownik in pracownicy.OrderBy(o => o.kontrakt.Pensja(o.kontrakt.typKontaktu == Kontrakt.typyKontaktu.etat ? 15 : 0)).ToList())
-                Console.WriteLine($"{pracownik} - {(pracownik.kontrakt.typKontaktu == Kontrakt.typyKontaktu.etat ? 15 : 0)}");
+            foreach (Pracownik pracownik in pracownicy.OrderBy(o => o.kontrakt.Pensja(o.kontrakt.typKontraktu == typyKontraktu.Etat ? 15 : 0)).ToList())
+                Console.WriteLine($"{pracownik} - {(pracownik.kontrakt.typKontraktu == typyKontraktu.Etat ? 15 : 0)}");
 
             Console.ReadKey();
         }

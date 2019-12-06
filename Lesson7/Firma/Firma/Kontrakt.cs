@@ -1,32 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Firma
+﻿namespace Firma
 {
+    public enum typyKontraktu
+    {
+        Staz,
+        Etat
+    };
+
     public class Kontrakt
     {
-        public enum typyKontaktu
-        {
-            staz,
-            etat
-        };
-
-        public typyKontaktu typKontaktu;
+        public typyKontraktu typKontraktu;
 
         public decimal podstawaWynagrodzenia;
 
         public Kontrakt()
         {
-            this.typKontaktu = typyKontaktu.staz;
+            this.typKontraktu = typyKontraktu.Staz;
             this.podstawaWynagrodzenia = 2000;
         }
 
-        public Kontrakt(typyKontaktu typKontaktu, decimal podstawaWynagrodzenia)
+        public Kontrakt(typyKontraktu typKontraktu, decimal podstawaWynagrodzenia)
         {
-            this.typKontaktu = typKontaktu;
+            this.typKontraktu = typKontraktu;
             this.podstawaWynagrodzenia = podstawaWynagrodzenia;
         }
 

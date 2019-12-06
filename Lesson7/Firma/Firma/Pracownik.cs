@@ -2,8 +2,7 @@
 {
     public class Pracownik
     {
-        public string imie;
-        public string nazwisko;
+        public string imie, nazwisko;
 
         public Kontrakt kontrakt;
 
@@ -15,7 +14,7 @@
             this.kontrakt = new Kontrakt();
         }
 
-        public void ZmienKontrakt() => this.kontrakt.typKontaktu = this.kontrakt.typKontaktu == Kontrakt.typyKontaktu.staz ? Kontrakt.typyKontaktu.etat : Kontrakt.typyKontaktu.staz;
+        public void ZmienKontrakt() => this.kontrakt.typKontraktu = this.kontrakt.typKontraktu == typyKontraktu.Staz ? typyKontraktu.Etat : typyKontraktu.Staz;
 
         public void ZmienPodstawePensji(decimal pensja) => this.kontrakt.podstawaWynagrodzenia = pensja;
 
@@ -27,7 +26,7 @@
         {
             var tymczasowa = new Pracownik(this.imie, this.nazwisko);
             
-            tymczasowa.kontrakt = new Kontrakt(this.kontrakt.typKontaktu, this.kontrakt.podstawaWynagrodzenia);
+            tymczasowa.kontrakt = new Kontrakt(this.kontrakt.typKontraktu, this.kontrakt.podstawaWynagrodzenia);
             
             return tymczasowa;
         }
