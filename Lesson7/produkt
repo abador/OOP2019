@@ -1,0 +1,14 @@
+    class Produkt
+    {
+        private string nazwa;
+        private double cenaJednostkowa;
+        private double ilosc;
+
+        private Produkt(string nazwa, double cenaJednostkowa, double ilosc)
+        {
+            this.nazwa = nazwa;
+            this.cenaJednostkowa = cenaJednostkowa;
+            this.ilosc = ilosc;
+        }
+    }
+}
