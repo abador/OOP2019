@@ -1,0 +1,6 @@
+C:\Users\Kacper\source\repos\Biblioteka\obj\Debug\Biblioteka.csprojAssemblyReference.cache
+C:\Users\Kacper\source\repos\Biblioteka\bin\Debug\Biblioteka.exe.config
+C:\Users\Kacper\source\repos\Biblioteka\bin\Debug\Biblioteka.exe
+C:\Users\Kacper\source\repos\Biblioteka\bin\Debug\Biblioteka.pdb
+C:\Users\Kacper\source\repos\Biblioteka\obj\Debug\Biblioteka.exe
+C:\Users\Kacper\source\repos\Biblioteka\obj\Debug\Biblioteka.pdb
