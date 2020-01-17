@@ -1,0 +1,15 @@
+C:\Users\local\source\repos\Lekcja12b\bin\Debug\Lekcja12b.exe.config
+C:\Users\local\source\repos\Lekcja12b\bin\Debug\Lekcja12b.exe
+C:\Users\local\source\repos\Lekcja12b\bin\Debug\Lekcja12b.pdb
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\Lekcja12b.csprojAssemblyReference.cache
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\MainWindow.g.cs
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\App.g.cs
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\Lekcja12b_MarkupCompile.cache
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\Lekcja12b_MarkupCompile.lref
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\MainWindow.baml
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\Lekcja12b.g.resources
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\Lekcja12b.Properties.Resources.resources
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\Lekcja12b.csproj.GenerateResource.cache
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\Lekcja12b.csproj.CoreCompileInputs.cache
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\Lekcja12b.exe
+C:\Users\local\source\repos\Lekcja12b\obj\Debug\Lekcja12b.pdb
