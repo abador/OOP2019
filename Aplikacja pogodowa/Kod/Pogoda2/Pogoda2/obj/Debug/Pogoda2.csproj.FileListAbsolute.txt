@@ -23,3 +23,28 @@ C:\Users\Arkadiusz\Desktop\obiektówka\Pogoda2\Pogoda2\obj\Debug\Welcome.g.cs
 C:\Users\Arkadiusz\Desktop\obiektówka\Pogoda2\Pogoda2\obj\Debug\Welcome.baml
 C:\Users\Arkadiusz\Desktop\obiektówka\Pogoda2\Pogoda2\obj\Debug\Autor.g.cs
 C:\Users\Arkadiusz\Desktop\obiektówka\Pogoda2\Pogoda2\obj\Debug\Autor.baml
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\bin\Debug\Pogoda2.exe.config
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\bin\Debug\Pogoda2.exe.manifest
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\bin\Debug\Pogoda2.application
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\bin\Debug\Pogoda2.exe
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\bin\Debug\Pogoda2.pdb
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2.csprojAssemblyReference.cache
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Autor.g.cs
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\MainWindow.g.cs
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Welcome.g.cs
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\App.g.cs
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2_MarkupCompile.cache
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2_MarkupCompile.lref
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Autor.baml
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\MainWindow.baml
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Welcome.baml
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2.g.resources
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2.Properties.Resources.resources
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2.csproj.GenerateResource.cache
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2.exe.manifest
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2.application
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2.csproj.CopyComplete
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2.exe
+C:\Users\zwinc\Desktop\git\OOP2019-1\Aplikacja pogodowa\Kod\Pogoda2\Pogoda2\obj\Debug\Pogoda2.pdb
