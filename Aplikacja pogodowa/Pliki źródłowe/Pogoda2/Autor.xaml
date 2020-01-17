@@ -1,0 +1,19 @@
+﻿<Window x:Class="Pogoda2.Autor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Pogoda2"
+        mc:Ignorable="d"
+        Title="Pogoda" Height="450" Width="800"
+        Icon="/ikony/ikona.ico">
+    <Grid>
+        <Label Content="Aplikacja stworzona na potrzeby projektu z przedmiotu &#xD;&#xA;Programowanie obiektowe. &#xD;&#xA;Autorem aplikacji jest Arkadiusz Więckowski.&#xD;&#xA;Obsługiwane są jedynie miejscowości z Polski.&#xD;&#xA;Aplikacja stworzona na API: weathermap.&#xD;&#xA;" HorizontalAlignment="Left" Height="305" Margin="102,39,0,0" VerticalAlignment="Top" Width="613" FontSize="24"/>
+        <Button Content="Powrót" HorizontalAlignment="Left" Margin="548,349,0,0" VerticalAlignment="Top" Width="213" Height="46" FontSize="24" Click="Button_Click"/>
+        <Grid.Background>
+
+            <ImageBrush ImageSource="/ikony/tlo.png" Opacity="0.3"/>
+        </Grid.Background>
+    </Grid>
+
+</Window>
