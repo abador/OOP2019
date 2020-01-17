@@ -1,0 +1,7 @@
+Projekt jest swego rodzaju grą puzzle, gdzie po połączeniu całego wiersza lub kolumny identycznym symbolem uzyskamy odpowiadającą mu punkt.
+Stworzona jest tu plansza 6x6 z 4 różnymi ikonami - mieczem, tarczą, butem oraz sercem.
+Gracz posiada określoną ilość ruchów na turę, której koniec musi potwierdzić.
+W obecnym stadium gra posiada wybór między 3 postaciami do gry, które róznią się między sobą bazowymy statystykami.
+Do pokonania została wprowadzona 5 przeciwników (Każdy losuje czy atakuje, czy przybiera pozycję obronną), gdzie każdy następny zyskuje na sile.
+Porażka jak i wygrana wyświetli komunikat i zamknie program automatycznie.
+Wprowadzono unikatowe grafiki oraz miejsce wyświetlające twórców.

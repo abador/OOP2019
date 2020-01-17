@@ -1,0 +1,9 @@
+C:\Users\Krzysztof\source\repos\Puzzle Game\OOP2019\bin\Debug\OOP2019.exe.config
+C:\Users\Krzysztof\source\repos\Puzzle Game\OOP2019\bin\Debug\OOP2019.exe
+C:\Users\Krzysztof\source\repos\Puzzle Game\OOP2019\bin\Debug\OOP2019.pdb
+C:\Users\Krzysztof\source\repos\Puzzle Game\OOP2019\obj\Debug\OOP2019.csprojAssemblyReference.cache
+C:\Users\Krzysztof\source\repos\Puzzle Game\OOP2019\obj\Debug\OOP2019.Form1.resources
+C:\Users\Krzysztof\source\repos\Puzzle Game\OOP2019\obj\Debug\OOP2019.Properties.Resources.resources
+C:\Users\Krzysztof\source\repos\Puzzle Game\OOP2019\obj\Debug\OOP2019.csproj.GenerateResource.cache
+C:\Users\Krzysztof\source\repos\Puzzle Game\OOP2019\obj\Debug\OOP2019.exe
+C:\Users\Krzysztof\source\repos\Puzzle Game\OOP2019\obj\Debug\OOP2019.pdb
