@@ -1,0 +1,206 @@
+﻿<Window x:Class="Projekt.Champions"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="League of Legends Helper" Height="600" Width="500">
+    <Grid>
+        <Button Content="Back to Menu" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Width="150" Height="50" Click="MoveToMenu"/>
+        <Image Width="100" Margin="-375,-300,0,0">
+            <Image.Source>
+                <BitmapImage UriSource="/images/roles/top.png"/>
+            </Image.Source>
+        </Image>
+        <Button Width="60" Height="80" Margin="-200,-300,0,0" Click="MalphiteClick">
+            <StackPanel>
+                <Image Source="images/champions/Malphite.png" Width="50" />
+                <TextBlock TextAlignment="Center">Malphite</TextBlock>
+            </StackPanel>
+        </Button>
+        <Button Width="60" Height="80" Margin="-50,-300,0,0" Click="MaokaiClick">
+            <StackPanel>
+                <Image Source="images/champions/Maokai.png" Width="50" />
+                <TextBlock TextAlignment="Center">Maokai</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="100,-300,0,0" Click="GarenClick">
+                <StackPanel>
+                    <Image Source="images/champions/Garen.png" Width="50" />
+                    <TextBlock TextAlignment="Center">Garen</TextBlock>
+                </StackPanel>
+            </Button>
+
+        <Button Width="60" Height="80" Margin="250,-300,0,0" Click="DrMundoClick">
+            <StackPanel>
+                <Image Source="images/champions/DrMundo.png" Width="50" />
+                <TextBlock TextAlignment="Center">Dr. Mundo</TextBlock>
+            </StackPanel>
+        </Button>
+        
+        <Button Width="60" Height="80" Margin="400,-300,0,0" Click="NasusClick">
+            <StackPanel>
+                <Image Source="images/champions/Nasus.png" Width="50" />
+                <TextBlock TextAlignment="Center">Nasus</TextBlock>
+            </StackPanel>
+        </Button>
+        <Image Width="100" Margin="-375,-100,0,0">
+            <Image.Source>
+                <BitmapImage UriSource="/images/roles/jungle.png"/>
+            </Image.Source>
+        </Image>
+        <Button Width="60" Height="80" Margin="-200,-100,0,0" Click="VolibearClick">
+            <StackPanel>
+                <Image Source="images/champions/Volibear.png" Width="50" />
+                <TextBlock TextAlignment="Center">Volibear</TextBlock>
+            </StackPanel>
+        </Button>
+        <Button Width="60" Height="80" Margin="-50,-100,0,0" Click="MasterYiClick">
+            <StackPanel>
+                <Image Source="images/champions/MasterYi.png" Width="50" />
+                <TextBlock TextAlignment="Center">Master Yi</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="100,-100,0,0" Click="SkarnerClick">
+            <StackPanel>
+                <Image Source="images/champions/Skarner.png" Width="50" />
+                <TextBlock TextAlignment="Center">Skarner</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="250,-100,0,0" Click="ShyvanaClick">
+            <StackPanel>
+                <Image Source="images/champions/Shyvana.png" Width="50" />
+                <TextBlock TextAlignment="Center">Shyvana</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="400,-100,0,0" Click="AmumuClick">
+            <StackPanel>
+                <Image Source="images/champions/Amumu.png" Width="50" />
+                <TextBlock TextAlignment="Center">Amumu</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Image Width="100" Margin="-375,100,0,0">
+            <Image.Source>
+                <BitmapImage UriSource="/images/roles/mid.png"/>
+            </Image.Source>
+        </Image>
+        <Button Width="60" Height="80" Margin="-200,100,0,0" Click="DianaClick">
+            <StackPanel>
+                <Image Source="images/champions/Diana.png" Width="50" />
+                <TextBlock TextAlignment="Center">Diana</TextBlock>
+            </StackPanel>
+        </Button>
+        <Button Width="60" Height="80" Margin="-50,100,0,0" Click="AnnieClick">
+            <StackPanel>
+                <Image Source="images/champions/Annie.png" Width="50" />
+                <TextBlock TextAlignment="Center">Annie</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="100,100,0,0" Click="LuxClick">
+            <StackPanel>
+                <Image Source="images/champions/Lux.png" Width="50" />
+                <TextBlock TextAlignment="Center">Lux</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="250,100,0,0" Click="MalzaharClick">
+            <StackPanel>
+                <Image Source="images/champions/Malzahar.png" Width="50" />
+                <TextBlock TextAlignment="Center">Malzahar</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="400,100,0,0" Click="NeekoClick">
+            <StackPanel>
+                <Image Source="images/champions/Neeko.png" Width="50" />
+                <TextBlock TextAlignment="Center">Neeko</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Image Width="100" Margin="-375,300,0,0">
+            <Image.Source>
+                <BitmapImage UriSource="/images/roles/adc.png"/>
+            </Image.Source>
+        </Image>
+        <Button Width="60" Height="80" Margin="-200,300,0,0" Click="MissFortuneClick">
+            <StackPanel>
+                <Image Source="images/champions/MissFortune.png" Width="50" />
+                <TextBlock TextAlignment="Center">Miss Fortune</TextBlock>
+            </StackPanel>
+        </Button>
+        <Button Width="60" Height="80" Margin="-50,300,0,0" Click="AsheClick">
+            <StackPanel>
+                <Image Source="images/champions/Ashe.png" Width="50" />
+                <TextBlock TextAlignment="Center">Ashe</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="100,300,0,0" Click="CaitlynClick">
+            <StackPanel>
+                <Image Source="images/champions/Caitlyn.png" Width="50" />
+                <TextBlock TextAlignment="Center">Caitlyn</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="250,300,0,0" Click="TristanaClick">
+            <StackPanel>
+                <Image Source="images/champions/Tristana.png" Width="50" />
+                <TextBlock TextAlignment="Center">Tristana</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="400,300,0,0" Click="EzrealClick">
+            <StackPanel>
+                <Image Source="images/champions/Ezreal.png" Width="50" />
+                <TextBlock TextAlignment="Center">Ezreal</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Image Width="100" Margin="-375,500,0,0">
+            <Image.Source>
+                <BitmapImage UriSource="/images/roles/support.png"/>
+            </Image.Source>
+        </Image>
+        <Button Width="60" Height="80" Margin="-200,500,0,0" Click="SorakaClick">
+            <StackPanel>
+                <Image Source="images/champions/Soraka.png" Width="50" />
+                <TextBlock TextAlignment="Center">Soraka</TextBlock>
+            </StackPanel>
+        </Button>
+        <Button Width="60" Height="80" Margin="-50,500,0,0" Click="JannaClick">
+            <StackPanel>
+                <Image Source="images/champions/Janna.png" Width="50" />
+                <TextBlock TextAlignment="Center">Janna</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="100,500,0,0" Click="LeonaClick">
+            <StackPanel>
+                <Image Source="images/champions/Leona.png" Width="50" />
+                <TextBlock TextAlignment="Center">Leona</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="250,500,0,0" Click="BlitzcrankClick">
+            <StackPanel>
+                <Image Source="images/champions/Blitzcrank.png" Width="50" />
+                <TextBlock TextAlignment="Center">Blitzcrank</TextBlock>
+            </StackPanel>
+        </Button>
+
+        <Button Width="60" Height="80" Margin="400,500,0,0" Click="MorganaClick">
+            <StackPanel>
+                <Image Source="images/champions/Morgana.png" Width="50" />
+                <TextBlock TextAlignment="Center">Morgana</TextBlock>
+            </StackPanel>
+        </Button>
+
+    </Grid>
+</Window>

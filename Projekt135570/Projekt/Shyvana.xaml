@@ -1,0 +1,52 @@
+﻿<Window x:Class="Projekt.Shyvana"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="League of Legends Helper" Height="600" Width="500">
+    <ScrollViewer>
+        <Grid>
+            <Button Content="Back to Champions" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Width="150" Height="50" Click="MoveToChampions"/>
+
+            <Image Width="100" Margin="-300,-600,0,0">
+                <Image.Source>
+                    <BitmapImage UriSource="/images/champions/Shyvana.png"/>
+                </Image.Source>
+            </Image>
+            <TextBlock HorizontalAlignment="Left" Margin="170,135,0,0" TextWrapping="Wrap" Text="Shyvana" VerticalAlignment="Top" Height="50" Width="250" FontSize="40" TextAlignment="Center" FontFamily="Helvetica" Foreground="FloralWhite" />
+            <TextBlock HorizontalAlignment="Left" Margin="170,200,0,0" TextWrapping="Wrap" Text="E > W > Q" VerticalAlignment="Top" Height="50" Width="250" FontSize="20" TextAlignment="Center" FontFamily="Helvetica" Foreground="FloralWhite" />
+            <StackPanel>
+                <Image Source="images/items/RunicEchoes.png" Width="50" Margin="-250,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="-250,0,0,0" Foreground="FloralWhite" FontSize="9"><Run Text="Runic Echoes"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Sorce.png" Width="50" Margin="-150,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="-150,0,0,0" Foreground="FloralWhite"><Run Text="Sorcerer's&#10;Shoes"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Nashor.png" Width="50" Margin="-50,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="-50,0,0,0" Foreground="FloralWhite"><Run Text="Nashor's&#10;Tooth"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Morello.png" Width="50" Margin="50,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="50,0,0,0" Foreground="FloralWhite"><Run Text="Morello"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Rabadon.png" Width="50" Margin="150,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="150,0,0,0" Foreground="FloralWhite"><Run Text="Rabadon's&#10;Deathcap"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Void.png" Width="50" Margin="250,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="250,0,0,0" Foreground="FloralWhite"><Run Text="Void&#10;Staff"/></TextBlock>
+            </StackPanel>
+            <Image Source="images/runes/MasterYi.PNG" Width="400" Height="300" Margin="0,300,0,0" />
+            <TextBlock Margin="170,800,170,50" TextAlignment="Center">           
+    <Hyperlink NavigateUri="https://www.probuilds.net/champions/details/Shyvana" Foreground="White" RequestNavigate="Hyperlink_RequestNavigate">
+        Probuilds.net @ Shyvana
+    </Hyperlink>
+            </TextBlock>
+        </Grid>
+    </ScrollViewer>
+</Window>
