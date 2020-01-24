@@ -1,0 +1,35 @@
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int numerIndeksu;
+            numerIndeksu = int.Parse(Console.ReadLine());
+            int zestaw = (numerIndeksu % 3) + 1;
+            Console.Write(zestaw);
+
+            Osoba osoba1 = new Osoba();
+            Autor autor1 = new Autor();
+            Pozycja pozycja1 = new Pozycja();
+            Książka książka1 = new Książka();
+            Czasopismo czasopismo1 = new Czasopismo();
+            Katalog katalog1 = new Katalog();
+
+            pozycja1.WypiszInfo();
+            książka1.WypiszInfo();
+            książka1.liczbaStron = 200;
+            książka1.Książka();
+            czasopismo1.WypiszInfo();
+            katalog1.DodajPozycje();
+            katalog1.WyszukajPoTytule();
+            katalog1.WyszukajPole();
+            katalog1.WypiszWszystko();
+
+            Console.ReadKey();
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
