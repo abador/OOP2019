@@ -1,0 +1,14 @@
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\bin\Debug\Lesson11.exe.config
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\bin\Debug\Lesson11.exe
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\bin\Debug\Lesson11.pdb
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\Lesson11.csprojAssemblyReference.cache
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\MainWindow.g.cs
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\App.g.cs
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\Lesson11_MarkupCompile.cache
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\Lesson11_MarkupCompile.lref
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\MainWindow.baml
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\Lesson11.g.resources
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\Lesson11.Properties.Resources.resources
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\Lesson11.csproj.GenerateResource.cache
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\Lesson11.exe
+C:\Users\ozzu\source\repos\Lesson11\Lesson11\obj\Debug\Lesson11.pdb

@@ -1,0 +1,24 @@
+﻿<Window x:Class="LibrarryLesson11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibrarryLesson11"
+        mc:Ignorable="d"
+        Title="Library" Height="335.232" Width="707.115">
+    <Grid Margin="10,0,2,26" RenderTransformOrigin="0.388,0.182">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="94*"/>
+            <ColumnDefinition Width="135*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Add book" Margin="127,85,6,0" VerticalAlignment="Top" Click="addBook_Click" Height="20"/>
+        <Button Content="Add journal" HorizontalAlignment="Left" Margin="127,137,0,0" VerticalAlignment="Top" Width="151" Click="add_journal_Click" Height="20"/>
+        <Button HorizontalAlignment="Left" Margin="127,199,0,0" VerticalAlignment="Top" Width="151" RenderTransformOrigin="-0.219,-1.148" Click="search_by_id_Click" Height="20">
+            <TextBlock TextWrapping="Wrap"><Run Text="Search by "/><Run Text="id"/></TextBlock>
+        </Button>
+        <Label Content="Enter title to search:" HorizontalAlignment="Left" Margin="167,79,0,0" VerticalAlignment="Top" Width="203" Grid.Column="1" Height="26"/>
+        <TextBox Name="search_keyword_tb" HorizontalAlignment="Left" Height="23" Margin="167,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166" Grid.Column="1"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="229,182,0,0" VerticalAlignment="Top" Width="104" Height="25" Grid.Column="1" Click="search_by_title_Click"/>
+        <Grid Margin="21,-27,1,27"/>
+    </Grid>
+</Window>
