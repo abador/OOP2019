@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Pogoda2.exe" version="1.0.0.2" publicKeyToken="5f235e4a362fdf91" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Pogoda2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Pogoda2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opcje manifestu kontroli konta użytkownika
+          Jeśli chcesz zmienić poziom kontroli konta użytkownika systemu Windows, zastąp węzeł 
+          requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Jeśli chcesz użyć wirtualizacji plików i rejestru do celów zgodności wstecznej, 
+         usuń węzeł requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Pogoda2.exe" size="1249784">
+      <assemblyIdentity name="Pogoda2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>uMkpkV4k2qFjOQOb/gdJhp+Ux/y/Mz/Ou03JA9vQoLg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Pogoda2.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-NOUUTOF\Arkadiusz" issuerKeyHash="3d1b04df95c971f415fe491037a95725b53dc1d0" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W1kx9lo6gcPHTtwZUmZuv2i18ypEjHBqyIlcuGsLKHE=</DigestValue></Reference></SignedInfo><SignatureValue>Vp///eafb4cfwDgxgoYxnBylYFn3MTgU40j00T3HhINUQEBWGk9JY2fqNdNYNvQTBXHCCTfkVNPNEe8bvHohjvE7Dwg5rGXPMHMohn5JVUqZ4aJr9lw1tLfH0uOOOAdIou8etUpzT9i69Rr4BOHBS2rOE+6D1Z1NmwUwUL2moXk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sTRX7z4v1pMbAhKSOH9OUY2U4swSRX+XQqTO/ADCgVxufHoMG6bu6Cdwe74Evcea6kWQ7/DF9TxnSTmqohmmOySt5c2uQ7frAcg3sH9hU+uafyjWMkSuPKXB9j6bdupH8VooRvxUpitYNsP+pIP3Lyv+gB5swIJtwyW4tCo8WdU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="71280b6bb85c89c86a708c442af3b568bf6e665219dc4ec7c3813a5af631595b" Description="" Url=""><as:assemblyIdentity name="Pogoda2.exe" version="1.0.0.2" publicKeyToken="5f235e4a362fdf91" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-NOUUTOF\Arkadiusz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>w4gZCjy6I0BJeEyI7mIqxVkw04enBmBc+5kqX7jg1a0=</DigestValue></Reference></SignedInfo><SignatureValue>VlUIg0RpppudGhdW4KScPcoHp4JE5z17UPTYuQW+/4tnAGXBpEVnVYBOl1Wl6nQCUEwjgetvm1tuBTtvWGuB8DWKTDmvohFxypB8ZtlN5aEwN4eQimRznkyujCEb3OF5537IODJreHXLzssdSBWBMD/faTCJ74KDcFZ3204uPS0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sTRX7z4v1pMbAhKSOH9OUY2U4swSRX+XQqTO/ADCgVxufHoMG6bu6Cdwe74Evcea6kWQ7/DF9TxnSTmqohmmOySt5c2uQ7frAcg3sH9hU+uafyjWMkSuPKXB9j6bdupH8VooRvxUpitYNsP+pIP3Lyv+gB5swIJtwyW4tCo8WdU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB/TCCAWagAwIBAgIQKiLLl+wen6BD62RQTrcehDANBgkqhkiG9w0BAQsFADA9MTswOQYDVQQDHjIARABFAFMASwBUAE8AUAAtAE4ATwBVAFUAVABPAEYAXABBAHIAawBhAGQAaQB1AHMAejAeFw0yMDAxMTYyMDQ1NDBaFw0yMTAxMTYwMjQ1NDBaMD0xOzA5BgNVBAMeMgBEAEUAUwBLAFQATwBQAC0ATgBPAFUAVQBUAE8ARgBcAEEAcgBrAGEAZABpAHUAcwB6MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCxNFfvPi/WkxsCEpI4f05RjZTizBJFf5dCpM78AMKBXG58egwbpu7oJ3B7vgS9x5rqRZDv8MX1PGdJOaqiGaY7JK3lza5Dt+sByDewf2FT65p/KNYyRK48pcH2Ppt26kfxWihG/FSmK1g2w/6kg/cvK/6AHmzAgm3DJbi0KjxZ1QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBADIAzdhDMMNgGxLUQAdqXRWK/O//wh3tq6cjKiotMRGGcLKE3wBgQdw/5u5TuWXS917sdYYyrdL+3gcC8XANTA8lHbRxsi37o792+2zy6+t5+BOwZGHM0+iL/OKBQ9lZG/aZ/e9Uhx9hZVCPAlD8EXDS2fCDms+OSk/AS60x4/tY</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
