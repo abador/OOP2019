@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3E3998A3-CE37-4FD0-A864-D2B26B88005A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projekt</RootNamespace>
+    <AssemblyName>Projekt</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Information.xaml.cs">
+      <DependentUpon>Information.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Shyvana.xaml.cs">
+      <DependentUpon>Shyvana.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Skarner.xaml.cs">
+      <DependentUpon>Skarner.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Soraka.xaml.cs">
+      <DependentUpon>Soraka.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tristana.xaml.cs">
+      <DependentUpon>Tristana.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Volibear.xaml.cs">
+      <DependentUpon>Volibear.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Amumu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Annie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ashe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Blitzcrank.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Caitlyn.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Champions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Credits.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Diana.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DrMundo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Ezreal.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Garen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Information.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Janna.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Leona.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Lux.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Amumu.xaml.cs">
+      <DependentUpon>Amumu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Annie.xaml.cs">
+      <DependentUpon>Annie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ashe.xaml.cs">
+      <DependentUpon>Ashe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Blitzcrank.xaml.cs">
+      <DependentUpon>Blitzcrank.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Caitlyn.xaml.cs">
+      <DependentUpon>Caitlyn.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Champions.xaml.cs">
+      <DependentUpon>Champions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Credits.xaml.cs">
+      <DependentUpon>Credits.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Diana.xaml.cs">
+      <DependentUpon>Diana.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DrMundo.xaml.cs">
+      <DependentUpon>DrMundo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Ezreal.xaml.cs">
+      <DependentUpon>Ezreal.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Garen.xaml.cs">
+      <DependentUpon>Garen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Janna.xaml.cs">
+      <DependentUpon>Janna.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Leona.xaml.cs">
+      <DependentUpon>Leona.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Lux.xaml.cs">
+      <DependentUpon>Lux.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Malphite.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Malzahar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Maokai.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MasterYi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MissFortune.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Morgana.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Nasus.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Neeko.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Shyvana.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Skarner.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Soraka.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tristana.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Volibear.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Malphite.xaml.cs">
+      <DependentUpon>Malphite.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Malzahar.xaml.cs">
+      <DependentUpon>Malzahar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Maokai.xaml.cs">
+      <DependentUpon>Maokai.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MasterYi.xaml.cs">
+      <DependentUpon>MasterYi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.xaml.cs">
+      <DependentUpon>Menu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MissFortune.xaml.cs">
+      <DependentUpon>MissFortune.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Morgana.xaml.cs">
+      <DependentUpon>Morgana.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Nasus.xaml.cs">
+      <DependentUpon>Nasus.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Neeko.xaml.cs">
+      <DependentUpon>Neeko.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\backgrounds\startbackground.png" />
+    <Resource Include="images\champions\Amumu.png" />
+    <Resource Include="images\champions\Annie.png" />
+    <Resource Include="images\champions\Ashe.png" />
+    <Resource Include="images\champions\Blitzcrank.png" />
+    <Resource Include="images\champions\Caitlyn.png" />
+    <Resource Include="images\champions\Diana.png" />
+    <Resource Include="images\champions\DrMundo.png" />
+    <Resource Include="images\champions\Ezreal.png" />
+    <Resource Include="images\champions\Garen.png" />
+    <Resource Include="images\champions\Janna.png" />
+    <Resource Include="images\champions\Leona.png" />
+    <Resource Include="images\champions\Lux.png" />
+    <Resource Include="images\champions\Malphite.png" />
+    <Resource Include="images\champions\Malzahar.png" />
+    <Resource Include="images\champions\Maokai.png" />
+    <Resource Include="images\champions\MasterYi.png" />
+    <Resource Include="images\champions\MissFortune.png" />
+    <Resource Include="images\champions\Morgana.png" />
+    <Resource Include="images\champions\Nasus.png" />
+    <Resource Include="images\champions\Neeko.png" />
+    <Resource Include="images\champions\Shyvana.png" />
+    <Resource Include="images\champions\Skarner.png" />
+    <Resource Include="images\champions\Soraka.png" />
+    <Resource Include="images\champions\Tristana.png" />
+    <Resource Include="images\champions\Volibear.png" />
+    <Resource Include="images\roles\adc.png" />
+    <Resource Include="images\roles\jungle.png" />
+    <Resource Include="images\roles\mid.png" />
+    <Resource Include="images\roles\support.png" />
+    <Resource Include="images\roles\top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\backgrounds\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\items\Abyssal.png" />
+    <Resource Include="images\items\Cinderhulk.png" />
+    <Resource Include="images\items\Liandry.png" />
+    <Resource Include="images\items\Tabi.png" />
+    <Resource Include="images\items\Thornmail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\runes\Amumu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\runes\Skarner.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\items\DMP.png" />
+    <Resource Include="images\items\Sorce.png" />
+    <Resource Include="images\items\Sterak.png" />
+    <Resource Include="images\items\Trinity.png" />
+    <Resource Include="images\items\Warrior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\items\Spirit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\items\Berserker.png" />
+    <Resource Include="images\items\Bloodrazor.png" />
+    <Resource Include="images\items\GA.png" />
+    <Resource Include="images\items\Guinsoo.png" />
+    <Resource Include="images\items\Morello.png" />
+    <Resource Include="images\items\Nashor.png" />
+    <Resource Include="images\items\Rabadon.png" />
+    <Resource Include="images\items\RunicEchoes.png" />
+    <Resource Include="images\items\Void.png" />
+    <Resource Include="images\items\WitsEnd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\runes\MasterYi.png" />
+    <Resource Include="images\runes\Shyvana.png" />
+    <Resource Include="images\runes\Volibear.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\items\Botrk.png" />
+    <Resource Include="images\items\IE.png" />
+    <Resource Include="images\items\PD.png" />
+    <Resource Include="images\items\Runaan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\runes\Ashe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\runes\Annie.PNG" />
+    <Resource Include="images\runes\Blitzcrank.PNG" />
+    <Resource Include="images\runes\Caitlyn.png" />
+    <Resource Include="images\runes\Diana.png" />
+    <Resource Include="images\runes\Ezreal.png" />
+    <Resource Include="images\runes\Garen.PNG" />
+    <Resource Include="images\runes\Janna.png" />
+    <Resource Include="images\runes\Leona.PNG" />
+    <Resource Include="images\runes\Lux.PNG" />
+    <Resource Include="images\runes\Malphite.PNG" />
+    <Resource Include="images\runes\Malzahar.png" />
+    <Resource Include="images\runes\Maokai.PNG" />
+    <Resource Include="images\runes\MissFortune.PNG" />
+    <Resource Include="images\runes\Morgana.PNG" />
+    <Resource Include="images\runes\Nasus.PNG" />
+    <Resource Include="images\runes\Neeko.png" />
+    <Resource Include="images\runes\Soraka.PNG" />
+    <Resource Include="images\runes\Tristana.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\items\Ardent.png" />
+    <Resource Include="images\items\Athene.png" />
+    <Resource Include="images\items\Echo.png" />
+    <Resource Include="images\items\Essence.png" />
+    <Resource Include="images\items\Gargoyle.png" />
+    <Resource Include="images\items\GLP.png" />
+    <Resource Include="images\items\Ionian.png" />
+    <Resource Include="images\items\Manamune.png" />
+    <Resource Include="images\items\Mercury.png" />
+    <Resource Include="images\items\Mobility.png" />
+    <Resource Include="images\items\Mortal.png" />
+    <Resource Include="images\items\Omen.png" />
+    <Resource Include="images\items\Redemption.png" />
+    <Resource Include="images\items\RFC.png" />
+    <Resource Include="images\items\RoA.png" />
+    <Resource Include="images\items\Rylai.png" />
+    <Resource Include="images\items\Shadows.png" />
+    <Resource Include="images\items\Shurelya.png" />
+    <Resource Include="images\items\Solari.png" />
+    <Resource Include="images\items\Storm.png" />
+    <Resource Include="images\items\Sunfire.png" />
+    <Resource Include="images\items\Vow.png" />
+    <Resource Include="images\items\Warmog.png" />
+    <Resource Include="images\items\Zeke.png" />
+    <Resource Include="images\items\Zhonya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\runes\DrMundo.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="favicon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

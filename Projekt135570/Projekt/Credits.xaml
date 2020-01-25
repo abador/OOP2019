@@ -1,0 +1,28 @@
+﻿<Window x:Class="Projekt.Credits"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="League of Legends Helper" Height="600" Width="500">
+    <Grid>
+        <Button Content="Back to Menu" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Width="150" Height="50" Click="MoveToMenu"/>
+        <TextBlock Margin="100,100,100,400"  Foreground="FloralWhite" FontSize="20" TextAlignment="Center">
+            Contact with the Author:
+        </TextBlock>
+        <TextBlock Margin="100,200,100,300"  Foreground="FloralWhite" FontSize="20" TextAlignment="Center">
+           <Hyperlink NavigateUri="https://github.com/fifi7596" Foreground="White" RequestNavigate="Hyperlink_RequestNavigate">GitHub</Hyperlink>
+        </TextBlock>
+        <TextBlock Margin="100,300,100,200"  Foreground="FloralWhite" FontSize="20" TextAlignment="Center">
+           Mail: fb7@vp.pl
+        </TextBlock>
+        <TextBlock Margin="100,400,100,100"  Foreground="FloralWhite" FontSize="20" TextAlignment="Center">
+           Filip Borkowski
+        </TextBlock>
+        <TextBlock Margin="100,500,100,000"  Foreground="FloralWhite" FontSize="12" TextAlignment="Center">
+           Student of University of Warmia and Mazury
+        </TextBlock>
+
+    </Grid>
+</Window>

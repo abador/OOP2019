@@ -1,0 +1,25 @@
+﻿<Window x:Class="Projekt.Information"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="League of Legends Helper" Height="600" Width="500">
+    <Grid>
+        <Button Content="Back to Menu" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Width="150" Height="50" Click="MoveToMenu"/>
+        <TextBlock Margin="100,100,100,100" TextAlignment="Center" Foreground="FloralWhite" FontSize="16">
+If you don't know on<LineBreak />what lane you should focus,<LineBreak /> read 
+<Hyperlink NavigateUri="https://mobalytics.gg/blog/lol-roles/" Foreground="White" RequestNavigate="Hyperlink_RequestNavigate">this</Hyperlink> article.<LineBreak />
+        </TextBlock>
+        <TextBlock Margin="100,200,100,100"  Foreground="FloralWhite" FontSize="12" TextAlignment="Center">
+In this program I chose 25 champions (5 per lane)<LineBreak />which are in my opinion the easiest in this game.</TextBlock>
+        <TextBlock Margin="100,250,100,100" Foreground="FloralWhite" TextAlignment="Center" FontSize="12">Remember, that sometimes you should adapt to the<LineBreak />
+            conditions of the current game and choose other items,<LineBreak />for example if enemy ad carry is strong, take some<LineBreak />armor instead of magic resist.
+        </TextBlock>
+        <TextBlock Margin="100,350,100,100"  Foreground="FloralWhite" FontSize="12" TextAlignment="Center">
+            The client is actually on patch 10.1<LineBreak />and this application is focused on this patch.<LineBreak /><LineBreak />
+        Each champion card has an link,<LineBreak />which takes you to an external site<LineBreak />where you can look at pro players builds.
+        </TextBlock>
+    </Grid>
+</Window>

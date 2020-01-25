@@ -1,0 +1,52 @@
+﻿<Window x:Class="Projekt.Malzahar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="League of Legends Helper" Height="600" Width="500">
+    <ScrollViewer>
+        <Grid>
+            <Button Content="Back to Champions" HorizontalAlignment="Center" Margin="0,25,0,0" VerticalAlignment="Top" Width="150" Height="50" Click="MoveToChampions"/>
+
+            <Image Width="100" Margin="-300,-600,0,0">
+                <Image.Source>
+                    <BitmapImage UriSource="/images/champions/Malzahar.png"/>
+                </Image.Source>
+            </Image>
+            <TextBlock HorizontalAlignment="Left" Margin="170,135,0,0" TextWrapping="Wrap" Text="Malzahar" VerticalAlignment="Top" Height="50" Width="250" FontSize="40" TextAlignment="Center" FontFamily="Helvetica" Foreground="FloralWhite" />
+            <TextBlock HorizontalAlignment="Left" Margin="170,200,0,0" TextWrapping="Wrap" Text="E > Q > W" VerticalAlignment="Top" Height="50" Width="250" FontSize="20" TextAlignment="Center" FontFamily="Helvetica" Foreground="FloralWhite" />
+            <StackPanel>
+                <Image Source="images/items/Echo.png" Width="50" Margin="-250,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="-250,0,0,0" Foreground="FloralWhite"><Run Text="Echo&#10;Luden"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Sorce.png" Width="50" Margin="-150,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="-150,0,0,0" Foreground="FloralWhite"><Run Text="Sorcerer's&#10;Shoes"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Rylai.png" Width="50" Margin="-50,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="-50,0,0,0" Foreground="FloralWhite"><Run Text="Rylai's&#10;Crystal&#10;Scepter"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Liandry.png" Width="50" Margin="50,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="50,0,0,0" Foreground="FloralWhite"><Run Text="Liandry's&#10;Torment"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Zhonya.png" Width="50" Margin="150,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="150,0,0,0" Foreground="FloralWhite"><Run Text="Zhonya's&#10;Hourglass"/></TextBlock>
+            </StackPanel>
+            <StackPanel>
+                <Image Source="images/items/Rabadon.png" Width="50" Margin="250,300,0,0" />
+                <TextBlock TextAlignment="Center" Width="75" Height="60" Margin="250,0,0,0" Foreground="FloralWhite"><Run Text="Rabadon's&#10;Deathcap"/></TextBlock>
+            </StackPanel>
+            <Image Source="images/runes/Malzahar.PNG" Width="400" Height="300" Margin="0,300,0,0" />
+            <TextBlock Margin="170,800,170,50" TextAlignment="Center">           
+    <Hyperlink NavigateUri="https://www.probuilds.net/champions/details/Malzahar" Foreground="White" RequestNavigate="Hyperlink_RequestNavigate">
+        Probuilds.net @ Malzahar
+    </Hyperlink>
+            </TextBlock>
+        </Grid>
+    </ScrollViewer>
+</Window>
