@@ -1,0 +1,387 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+
+namespace probnekolo
+{
+    interface IMapa
+    {
+        // public void generate();
+        // public void list();
+        // public void show();
+
+        void generate();
+        void list();
+        void show();
+    }
+    class Mapa : IMapa
+    {
+        public MapElement[,] data;
+
+        public void generate()
+        {
+            int[] size = new int[2];
+
+            bool error;
+
+            do
+            {
+                error = false;
+
+                Console.Write("Podaj wymiary mapy <x, y>: ");
+
+                string[] input = Console.ReadLine().Split(',');
+
+                if (input.Length != size.Length)
+                    error = true;
+                else
+                    for (int i = 0; i < size.Length; i++)
+                        if (!Int32.TryParse(input[i], out size[i]))
+                            error = true;
+                        else if (size[i] < 1 || size[i] > 10)
+                            error = true;
+            } while (error);
+
+            this.data = new MapElement[size[0], size[1]];
+
+            Random random = new Random();
+
+            for (int i = 0; i < size.Length; i++)
+                size[i] = random.Next(0, this.data.GetLength(i) - 1);
+
+            this.data[size[0], size[1]] = new Grass(size[0], size[1]);
+
+            for (int i = 0; i < this.data.GetLength(0); i++)
+            {
+                for (int j = 0; j < this.data.GetLength(1); j++)
+                {
+                    if (i == size[0] && j == size[1])
+                        continue;
+
+                    int number = random.Next(0, 10);
+
+                    if (number <= 1)
+                        this.data[i, j] = new Rock(i, j);
+                    else if (number <= 4)
+                        this.data[i, j] = new Tree(i, j);
+                    else
+                        this.data[i, j] = new Grass(i, j);
+                }
+            }
+        }
+
+        public void list()
+        {
+            for (int i = 0; i < this.data.GetLength(0); i++)
+                for (int j = 0; j < this.data.GetLength(1); j++)
+                    this.data[i, j].print();
+        }
+
+        public void show()
+        {
+            for (int i = 0; i < this.data.GetLength(0); i++)
+            {
+                for (int j = 0; j < this.data.GetLength(1); j++)
+                    Console.Write(this.data[i, j].icon);
+
+                Console.WriteLine();
+            }
+        }
+    }
+    class Point
+    {
+        public int x { get; set; }
+        public int y { get; set; }
+
+        public Point(int x, int y)
+        {
+            this.x = x;
+            this.y = y;
+        }
+
+        public virtual void print()
+        {
+            Console.WriteLine($"X: {this.x} Y: {this.y}");
+        }
+    }
+    class MapElement : Point
+    {
+        public char icon { get; set; }
+
+        public MapElement(int x, int y, char icon) : base(x, y)
+        {
+            this.icon = icon;
+        }
+    }
+    class User : Point
+    {
+        public string name { get; set; }
+        public int level { get; set; }
+
+        public User(string name, int level, int x, int y) : base(x, y)
+        {
+            this.name = name;
+            this.level = level;
+        }
+
+        public override void print()
+        {
+            Console.WriteLine($"[{this.name}, level {this.level}] X: {this.x} Y: {this.y}");
+        }
+    }
+    class Rock : MapElement
+    {
+        public Rock(int x, int y) : base(x, y, 'R')
+        {
+
+        }
+
+        public override void print()
+        {
+            Console.WriteLine($"[Rock] X: {this.x} Y: {this.y}");
+        }
+    }
+
+    class Tree : MapElement
+    {
+        public Tree(int x, int y) : base(x, y, 'T')
+        {
+
+        }
+
+        public override void print()
+        {
+            Console.WriteLine($"[Tree] X: {this.x} Y: {this.y}");
+        }
+    }
+    class Grass : MapElement
+    {
+        public Grass(int x, int y) : base(x, y, 'G')
+        {
+
+        }
+
+        public override void print()
+        {
+            Console.WriteLine($"[Grass] X: {this.x} Y: {this.y}");
+        }
+    }
+
+    //mapa
+    /// //////////////
+    // klasy charakteru 
+    public enum charClass { Warrior, Mage, Archer };
+    public struct classDamage
+    {
+        public const double d1 = 0.5;
+        public const double d2 = 1;
+        public const double d3 = 1.5;
+    }
+
+
+
+    class Character
+    {
+
+        public double posx;
+        public double posy;
+        public int lvl;
+        public string nick;
+        public charClass charclass;
+
+
+        public Character()
+        {
+        }
+
+        public void Generate(double _posx, double _posy, int _lvl, string _nick, charClass _charclass)
+        {
+            this.posx = _posx;
+            this.posy = _posy;
+            this.lvl = _lvl;
+            this.nick = _nick;
+            this.charclass = _charclass;
+        }
+
+        public double CalculateDamage(int a, int b, charClass tmp_class, charClass tmp_class2)
+        {
+            double classdmg = 0;
+            double calculate;
+
+            if (tmp_class == tmp_class2)
+            {
+                classdmg = classDamage.d2;
+            }
+            else if (tmp_class == charClass.Warrior && tmp_class2 == charClass.Archer)
+            {
+                classdmg = classDamage.d3 - classDamage.d1;
+            }
+            else if (tmp_class == charClass.Mage && tmp_class2 == charClass.Warrior)
+            {
+                classdmg = classDamage.d3 - classDamage.d1;
+            }
+            else if (tmp_class == charClass.Archer && tmp_class2 == charClass.Mage)
+            {
+                classdmg = classDamage.d3 - classDamage.d1;
+            }
+            else if (tmp_class == charClass.Archer && tmp_class2 == charClass.Warrior)
+            {
+                classdmg = classDamage.d1 - classDamage.d3;
+            }
+            else if (tmp_class == charClass.Warrior && tmp_class2 == charClass.Mage)
+            {
+                classdmg = classDamage.d1 - classDamage.d3;
+            }
+            else if (tmp_class == charClass.Mage && tmp_class2 == charClass.Archer)
+            {
+                classdmg = classDamage.d1 - classDamage.d3;
+            }
+
+            calculate = a - b;
+            calculate = calculate * classdmg;
+
+            if (calculate < 0)
+                return 0;
+            else
+                return classdmg;
+        }
+        public void Action()
+        {
+            Console.WriteLine(this.charclass + " " + this.nick + " is walking" + " position  X: " + posx + " Y: " + posy);
+        }
+        public void Walk(double a, double b)
+        {
+            this.posx = this.posx + a;
+            this.posy = this.posy + b;
+        }
+        public void steruj()
+        {
+            Console.Clear();
+            Console.WriteLine("Sterowanie strzalki, ESC wyjscie");
+            this.Action();
+            while (true)
+            {
+                var ch = Console.ReadKey(false).Key;
+                switch (ch)
+                {
+                    case ConsoleKey.Escape:
+                        Environment.Exit(0);
+                        return;
+                    case ConsoleKey.UpArrow:
+                        Console.Clear();
+                        Console.WriteLine("Sterowanie strzalki, ESC wyjscie");
+                        this.Walk(0, 1);
+                        this.Action();
+                        break;
+                    case ConsoleKey.DownArrow:
+                        Console.Clear();
+                        Console.WriteLine("Sterowanie strzalki, ESC wyjscie");
+                        this.Walk(0, -1);
+                        this.Action();
+                        break;
+                    case ConsoleKey.LeftArrow:
+                        Console.Clear();
+                        Console.WriteLine("Sterowanie strzalki, ESC wyjscie");
+                        this.Walk(-1, 0);
+                        this.Action();
+                        break;
+                    case ConsoleKey.RightArrow:
+                        Console.Clear();
+                        Console.WriteLine("Sterowanie strzalki, ESC wyjscie");
+                        this.Walk(1, 0);
+                        this.Action();
+                        break;
+                }
+            }
+        }
+    }
+    class Warrior : Character
+    {
+
+        public void Action()
+        {
+            Console.WriteLine(this.charclass + " " + this.nick + " is walking");
+        }
+    }
+    class Archer : Character
+    {
+        public void Action()
+        {
+            Console.WriteLine(this.charclass + " " + this.nick + " is walking");
+        }
+    }
+    class Mage : Character
+    {
+        public void Action()
+        {
+            Console.WriteLine(this.charclass + " " + this.nick + " is walking");
+        }
+    }
+
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+
+            List<Character> druzyna = new List<Character>();
+            Archer nowy1 = new Archer();
+            Warrior nowy2 = new Warrior();
+            Mage nowy3 = new Mage();
+            ///zad2
+            nowy1.Generate(0, 1, 8, "Legolas", charClass.Archer);
+            nowy2.Generate(2, 2, 10, "Aragorn", charClass.Warrior);
+            nowy3.Generate(3, 10, 11, "Gandalf", charClass.Mage);
+
+            druzyna.Add(nowy1);
+            druzyna.Add(nowy2);
+            druzyna.Add(nowy3);
+
+            foreach (var i in druzyna)
+            {
+                i.Action();
+            }
+
+            ///zad4
+            List<Character> SortedDruzyna = druzyna.OrderBy(o => o.nick).ToList();
+            foreach (var i in SortedDruzyna)
+            {
+                Console.WriteLine(i.nick);
+            }
+            ///zad1
+            var cos = nowy1.CalculateDamage(nowy2.lvl, nowy1.lvl, nowy2.charclass, nowy1.charclass);
+            Console.WriteLine("dmg classy " + cos);
+            //zad 5 usun // zeby wlaczyc metode sterwania
+            //nowy1.steruj();
+
+            //zad3 
+            Mapa map = new Mapa();
+            map.generate();
+            map.list();
+            map.show();
+
+            int x = 0, y = 0;
+
+            Random random = new Random();
+
+            for (int i = 0; i < map.data.GetLength(0); i++)
+                for (int j = 0; j < map.data.GetLength(1); j++)
+                    if (map.data[i, j] is Grass)
+                    {
+                        x = i;
+                        y = j;
+
+                        if (random.Next(0, 100) >= 60)
+                            break;
+                    }
+
+            User user = new User("Player", 0, x, y);
+            user.print();
+            Console.ReadKey();
+
+        }
+    }
+}
